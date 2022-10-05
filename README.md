@@ -1,3 +1,9 @@
+# BetterCodingAcademy-cicd-tutorial
+
+This repo contains a basic React app which I can use to setup a CI/CD pipeline with AWS.
+
+Check out the description for a link to the tutorial.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
