@@ -15,10 +15,10 @@ phases:
       - yarn
   build:
     commands:
-      - echo Testing...
-      - yarn test
+      #- echo Testing...
+      #- yarn test
       - echo Building...
-      - yarn build
+      - npm run build
 artifacts:
   files:
     - "**/*"
