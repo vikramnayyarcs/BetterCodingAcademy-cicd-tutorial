@@ -12,11 +12,11 @@ phases:
   pre_build:
     commands:
       - echo Installing dependencies...
-      - yarn
+      - npm
   build:
     commands:
       #- echo Testing...
-      #- yarn test
+      #- npm test
       - echo Building...
       - npm run build
 artifacts:
