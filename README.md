@@ -37,7 +37,7 @@ GitHub Settings:
    
    sudo ./svc.sh
 
-   Refresh and should see runners (change npm ci to npm i if fails).
+   Refresh and should see IP.
    
   ### GitHub Actions:
   Select Node JS.
@@ -52,7 +52,7 @@ GitHub Settings:
   
   Start commit
   
-  
+  Refresh and should see runners (change npm ci to npm i if fails).
    
    
 
