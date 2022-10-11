@@ -10,10 +10,15 @@ Code the project however you want and push to a repo.
 
 Create AWS EC2 instance:
   Name
+  
   Ubuntu OS
+  
   Generate new key pair (pem, directory matters!)
+  
   Create Security Group
+  
   Allow internet traffic (HTTP & HTTPS)
+  
   **Launch Instance**
 
 # Getting Started with Create React App
