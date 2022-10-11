@@ -54,6 +54,37 @@ GitHub Settings:
   
   Refresh and should see runners (change npm ci to npm i if fails).
    
+### Go to Instance Inside of Newly Created Directory:
+sudo apt install nginx (If successful, public IPV4 DNS will be available when selecting your instance, not yet usable,https will succeed).
+
+ls ; cd _work ; ls (repositiory name) cd repo name, ls (build) , cd build, ls (index.html).
+
+Copy path of index.html (pwd, save for later).
+
+### Update Nginx Settings:
+From /build, cd /etc/nginx
+
+cd sites-available
+
+sudo rm default
+
+sudo nano default
+
+Paste in script (fill in root path from earlier).
+
+sudo service nginx restart
+
+Internal server error (temporary).
+
+chmod +x (build folder path iteratively).
+
+./1
+
+./1/2
+
+./1/2/3
+
+
    
 
 # Getting Started with Create React App
