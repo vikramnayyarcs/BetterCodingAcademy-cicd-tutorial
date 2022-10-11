@@ -9,6 +9,7 @@ https://www.youtube.com/watch?v=0Kn6mAYIRJU&t=323s
 Code the project however you want and push to a repo.
 
 Create AWS EC2 instance:
+
   Name
   
   Ubuntu OS
@@ -20,6 +21,25 @@ Create AWS EC2 instance:
   Allow internet traffic (HTTP & HTTPS)
   
   **Launch Instance**
+  
+GitHub Settings:
+  Actions->Runners. 'New self-hosted runners'.
+  
+  Follow steps, using Linux OS (instance OS).
+  
+Connect to instance using SSH Client (copy paste command):
+  
+   Create a new directory.
+   
+   Paste in commands (Validate hash, extract hash using tar*, enter). -> 'Runner added successfully'.
+   
+   sudo ./svc.sh install
+   
+   sudo ./svc.sh
+
+   Refresh and should see runners (change npm ci to npm i if fails).
+   
+   
 
 # Getting Started with Create React App
 
