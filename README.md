@@ -8,7 +8,7 @@ https://www.youtube.com/watch?v=0Kn6mAYIRJU&t=323s
 ## Steps:
 Code the project however you want and push to a repo.
 
-Create AWS EC2 instance:
+### Create AWS EC2 instance:
 
   Name
   
@@ -27,7 +27,7 @@ GitHub Settings:
   
   Follow steps, using Linux OS (instance OS).
   
-Connect to instance using SSH Client (copy paste command):
+### Connect to instance using SSH Client (copy paste command):
   
    Create a new directory.
    
@@ -38,6 +38,21 @@ Connect to instance using SSH Client (copy paste command):
    sudo ./svc.sh
 
    Refresh and should see runners (change npm ci to npm i if fails).
+   
+  ### GitHub Actions:
+  Select Node JS.
+  
+  Remove PR part.
+  
+  Line 13: runs-on: self-hosted
+  
+  Node version changes* (remove others)
+  
+  Remove test cases if none
+  
+  Start commit
+  
+  
    
    
 
