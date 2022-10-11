@@ -5,6 +5,17 @@ This repo contains a basic React app which I can use to setup a CI/CD pipeline w
 Check out the description for a link to the tutorial.
 https://www.youtube.com/watch?v=0Kn6mAYIRJU&t=323s
 
+## Steps:
+Code the project however you want and push to a repo.
+
+Create AWS EC2 instance:
+  Name
+  Ubuntu OS
+  Generate new key pair (pem, directory matters!)
+  Create Security Group
+  Allow internet traffic (HTTP & HTTPS)
+  **Launch Instance**
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
